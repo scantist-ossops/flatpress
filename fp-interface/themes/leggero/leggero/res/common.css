@@ -278,6 +278,27 @@ h4 { font-size: 1.2em; }
 		margin-bottom: 5em
 	}
 
+	#main ul.share {
+		clear: both;
+		margin: 0.5em;
+		font-size: 0.8em;
+		list-style-type: none;
+		text-align: right;}
+		
+	#main span.facebook {
+		margin-left:10px;
+		background: url(../imgs/social/facebook-12x12.png) no-repeat;
+		padding-left:20px;}
+		
+	#main span.twitter {
+		margin-left:10px;
+		background: url(../imgs/social/twitter-12x12.png) no-repeat;
+		padding-left:20px;}
+	
+	#main span.googleplus {
+		margin-left:10px;
+		background: url(../imgs/social/google+-12x12.png) no-repeat;
+		padding-left:20px;}
 
 /* ===== FOOTER ===== */
 #footer {
