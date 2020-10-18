@@ -34,6 +34,9 @@ function login_validate() {
 		return 0;
 	}
 
+	// generate CSRF token
+	sess_setCsrfToken();
+
 	return 1;
 }
 

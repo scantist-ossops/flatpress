@@ -28,12 +28,12 @@
 		<td> {$version} </td>
 		<td> {if $inarr} 
 			<a class="link-disable"
-			href="{$action_url|cmd_link:disable:$plugin}"> 
+			href="{$action_url|cmd_link:disable:$plugin}&amp;csrftoken={$csrftoken}"> 
 				{$panelstrings.disable}
 			</a> 
 			{else}
 			<a class="link-enable" 
-			href="{$action_url|cmd_link:enable:$plugin}"> 
+			href="{$action_url|cmd_link:enable:$plugin}&amp;csrftoken={$csrftoken}"> 
 				{$panelstrings.enable}
 			</a> 
 			{/if}

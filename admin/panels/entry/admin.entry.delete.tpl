@@ -10,6 +10,7 @@
 	<p>{$panelstrings.confirm}</p>
 	
 		<input type="hidden" name="entry" value="{$id}" />
+		<input type="hidden" name="csrftoken" value="{$csrftoken}" />
 		<div class="buttonbar">
 		{html_submit  name="delete" id="delete" value=$panelstrings.ok}
 		{html_submit  name="cancel" id="cancel" value=$panelstrings.cancel}

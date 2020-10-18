@@ -66,6 +66,8 @@ function user_logout() {
 	}
 
 	$loggedin = false;
+
+	sess_close();
 }
 
 function user_loggedin() {

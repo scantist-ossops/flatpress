@@ -76,7 +76,7 @@ href="{$panel_url|action_link:write}&amp;entry={$id}">
 {$panelstrings.act_edit}
 </a>
 <a class="link-delete" 
-href="{$panel_url|action_link:delete}&amp;entry={$id}">
+href="{$panel_url|action_link:delete}&amp;entry={$id}&amp;csrftoken={$csrftoken}">
 {$panelstrings.act_del}
 </a>
 

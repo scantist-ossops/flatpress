@@ -88,7 +88,7 @@
 		<li><a href="admin.php?p=entry&amp;entry={$smarty.get.entry}&amp;action=commentlist">
 			{$panelstrings.commmsg}</a></li>
 		{/if}
-		<li><a href="admin.php?p=entry&amp;entry={$smarty.get.entry}&amp;action=delete">
+		<li><a href="admin.php?p=entry&amp;entry={$smarty.get.entry}&amp;action=delete&amp;csrftoken={$csrftoken}">
 			{$panelstrings.delmsg}</a></li>
 	</ul>
 
